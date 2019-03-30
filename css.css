@@ -1,0 +1,121 @@
+body{
+  background-color: #f0f4f5;
+  font-family:arial;
+}
+.buttonM, .buttonF {
+  background-color: #3356E7;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {
+  background-color: #3356E7;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.Gone {
+  border: 3px solid #005eb8;
+  background: white;
+  height: auto;
+  width: 24em;
+  border-radius: 10px 10px 0px 0px;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-left: auto;
+  z-index: 100;
+  position: absolute;
+}
+
+.infoPlace {
+  border: 3px solid #005eb8;
+  background: white;
+  height: 6em;
+  width: 5.3em;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 0px;
+  padding-left: 5px;
+  float: left;
+  margin-top: 2em;
+  margin-left: 17px;
+}
+
+.scale {
+  border: 1.5px solid #005eb8;
+  background-image: linear-gradient(to right, red, orange, yellow, green, green, yellow, orange, orange, red, red);
+  height: 1em;
+  width: 24em;
+  border-radius: 10px 10px 0px 0px;
+  padding-top: 0px;
+  padding-left: 5px;
+  margin-left: -18.5px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.arrowSpace{
+  margin-left: 10em;
+  margin-top: 3em;
+}
+.CalculateSpcae{
+margin-top: 12em;
+margin-left: 6.5em;
+margin-bottom: 1em;
+}
+.scaleTotal{
+  border: 3px solid #005eb8;
+  background: white;
+  height: auto;
+  width: inherit;
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-left: -33px;
+  z-index: 100;
+  position: absolute;
+}
+
+.maleFemaleButton{
+  margin-left: 4em;
+}
+
+.buttonF{
+  margin-left: 4em;
+}
+
+.ConclusionBMIText{
+  margin-left: 2em;
+}
+
+.ConclusionBMIText2{
+  margin-left: .3em;
+  font-size: 1.3em;
+}
+
+.subInfo{
+  margin-left: 7px;
+}

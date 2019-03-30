@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css.css">
+  <link rel="shortcut icon" href="https://stadelmanfruit.com/wp-content/uploads/2017/09/stadelmans-apple-illustration.png">
+  <title>BMI-number</title>
+</head>
+
+<body>
+  <div class="Gone">
+    <div class="maleFemaleButton">
+
+      <input class="buttonM" type="button" value="male" onclick="">
+      <input class="buttonF" type="button" value="female" onclick="">
+    </div>
+    <div class="infoPlace">
+      <p>Height</p>
+      <p><input id="lengte" type="number" name="Height" value="1" min="1" style="width: 3em;"><select style="width: 3em;" name="keuze" id="keuzeLengte" class="keuze">
+          <option value="cm">cm</option>
+          <option value="in">in</option>
+        </select></p>
+    </div>
+    <div class="infoPlace">
+      <p>Weight</p>
+      <p><input id="gewicht" type="number" name="Weight" value="1" min="1" style="width: 3em;"><select name="keuze" id="keuzeGewicht" class="keuze">
+          <option value="kg">kg</option>
+          <option value="lb">lb</option>
+        </select></p>
+    </div>
+    <div class="infoPlace">
+      <p>Age</p>
+      <p><input type="number" name="Age" value="1" min="1" style="width: 3em;"> year</p>
+    </div>
+    <div class="CalculateSpcae">
+
+      <input class="button" type="button" value="Calculate" id="bereken" onclick="call2()">
+    </div>
+    <div class="scaleTotal">
+      <div class="ConclusionBMIText">
+        <h2>Conclusion BMI number:</h2>
+        <div class="ConclusionBMIText2" id="resultaat"></div>
+        <p class="subInfo">Info about the Calculated BMI number: <br> The avarage BMI number is: 26.6</p>
+      </div>
+      <div class="arrowSpace" id="arrowSpace">
+        <i class="arrow down"></i>
+      </div>
+      <div class="scale"></div>
+    </div>
+
+  </div>
+
+
+  <script src="ajax.js"></script>
+  <script src="script.js"></script>
+  <script src="jsSideBMI.js"></script>
+
+  <!--
+  You can probally already see that gender and age dont do anything...
+  Thats because we needed to use our pre made design.
+  mine had age and gender sinds the beginning but i could not find the time to make them actually work :)
+  Sorry!
+  -->
+
+</body>
+
+</html>
